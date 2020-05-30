@@ -7,7 +7,14 @@
   background-color: #f1f1f1;
 }
 
-/* Style the buttons that are used to open the tab content */
+.brandlinks {
+  color: #033e42;
+  text-shadow: 2px 2px 5px rgb(0, 255, 221);
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+/* Style the establishement brand and the buttons that are used to open the tab content */
 .tab button {
   background-color: inherit;
   float: left;
@@ -16,6 +23,9 @@
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-items: center;
 }
 
 /* Change background color of buttons on hover */
@@ -34,4 +44,8 @@
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+}
+
+.block {
+  margin-top: 12px;
 }
